@@ -45,5 +45,6 @@ export default function SignInPage() {
         <button type="submit" className="w-full bg-blue-500 p-2 mt-2">Sign In</button>
       </form>
     </div>
+    
   );
 }
