@@ -24,7 +24,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           throw new Error("Invalid credentials.");
         }
 
-        
         return user;
       },
     }),
